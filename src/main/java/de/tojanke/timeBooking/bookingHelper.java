@@ -45,7 +45,7 @@ public class bookingHelper extends Application {
 	private static class TimeEntry implements Serializable {
 		public long time;
 		public String project;
-		private static SimpleDateFormat timeFormat = new SimpleDateFormat("HH:mm");
+		private static SimpleDateFormat timeFormat = new SimpleDateFormat("dd.MM. HH:mm");
 		
 		public TimeEntry(String p, long t) {
 			project = p;
